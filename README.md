@@ -1,11 +1,11 @@
 <img width="772" height="435" alt="dashbord photo" src="https://github.com/user-attachments/assets/e986530d-6144-4354-8e0a-93eb3fbc897f" />
-# 🏥 Mental Health Analytics: Suicide Analysis in Arab Countries
+# 🏦 Banking Sector Analysis: Problem Analysis in Saudi Arabia
 
-A comprehensive Power BI data analysis project examining suicide patterns across Arab nations to support mental health policy development and prevention strategies. This dashboard analyzes regional mental health trends with culturally-sensitive insights and statistical modeling.
+A comprehensive Power BI data analysis project examining banking sector issues and customer complaints across Saudi Arabian financial institutions. This dashboard analyzes service quality patterns, regional performance, and institutional effectiveness to support banking sector improvements.
 
 ## 📊 Project Overview
 
-This Power BI dashboard provides critical analysis of suicide patterns across Arab countries, examining demographic distributions, regional variations, and temporal trends. The project aims to support evidence-based mental health policy development and resource allocation for suicide prevention programs in the Arab world.
+This Power BI dashboard provides critical analysis of banking sector problems across Saudi Arabia, examining complaint patterns, regional variations, and institutional performance. The project aims to support evidence-based banking policy development and service quality improvements in the Saudi financial sector.
 
 ## 🔧 Tools & Technologies
 
@@ -19,77 +19,77 @@ This Power BI dashboard provides critical analysis of suicide patterns across Ar
 ## 📈 Key Metrics & Insights
 
 ### Overall Statistics
-- **Total Cases Analyzed**: 600+ documented incidents
-- **Regional Coverage**: Multiple Arab countries included
-- **Demographic Analysis**: Age, gender, and location breakdowns
-- **Time Period Analysis**: Multi-year trending data
+- **Total Complaints Analyzed**: 600+ documented cases
+- **Banking Institutions**: Multiple Saudi banks included
+- **Regional Coverage**: Southern, Eastern, and Central regions
+- **Resolution Tracking**: 80% resolved vs 20% pending cases
 
-### Geographic Distribution
-- **أمكان (Places)**: 27 cases
-- **أمريكان (American)**: 10 cases  
-- **أكسيس (Access)**: 10 cases
-- **البحرين (Bahrain)**: 10 cases
-- **الرياض (Riyadh)**: 10 cases
-- **الراجحي (Al-Rajhi)**: 14 cases
+### Banking Institution Analysis
+- **أمكان (Amkan)**: 27 cases
+- **أمريكان (American Express)**: 10 cases  
+- **أكسيس (Access Bank)**: 10 cases
+- **البحرين (Bahrain Bank)**: 10 cases
+- **الرياض (Riyadh Bank)**: 10 cases
+- **الراجحي (Al-Rajhi Bank)**: 14 cases
 - **البنك المركزي (Central Bank)**: 11 cases
-- **الأهلي (Al-Ahli)**: 0 cases
-- **Total Analyzed**: 91 cases in detailed breakdown
+- **الأهلي (Al-Ahli Bank)**: 0 cases
+- **Total Detailed Analysis**: 91 cases
 
 ## 📊 Dashboard Components
 
 ### Main Analytics Sections
 
 #### Regional Analysis (المناطق)
-- **Southern Region (المنطقة الجنوبية)**: Checkbox filtering
-- **Eastern Region (المنطقة الشرقية)**: Regional comparison
-- **Central Region (المنطقة الوسطى)**: Metropolitan analysis
+- **Southern Region (المنطقة الجنوبية)**: Regional complaint filtering
+- **Eastern Region (المنطقة الشرقية)**: Eastern province analysis
+- **Central Region (المنطقة الوسطى)**: Riyadh and central areas
 
 #### Complaint Type Analysis (نوع الشكوى)
 - Interactive dropdown for complaint categorization
-- Multi-dimensional filtering capabilities
-- Cross-referencing with regional data
+- Service quality issues tracking
+- Transaction-related problems analysis
 
-#### Time Series Analysis (الوقت المستغرق)
-- Line chart showing temporal patterns from 2019-2024
-- Peak period identification around 2020-2021
-- Declining trend analysis through 2024
+#### Resolution Time Analysis (الوقت المستغرق)
+- Line chart showing resolution patterns from 2019-2024
+- Peak complaint periods around 2020-2021
+- Improvement trends through 2024
 
-#### Current Status (حاله الشكوى)
-- Pie chart showing case status distribution
-- 80% resolved cases vs 20% pending
-- Performance tracking for intervention programs
+#### Case Status (حاله الشكوى)
+- Pie chart showing complaint resolution status
+- 80% resolved complaints vs 20% pending
+- Performance tracking for customer service
 
-#### Institution Analysis (اسم المتبرع/عدد أفرعه)
-- Detailed breakdown by participating institutions
-- Geographic coverage assessment
-- Resource allocation optimization
+#### Banking Institution Performance (اسم المتبرع/عدد أفرعه)
+- Detailed breakdown by bank performance
+- Branch network coverage assessment
+- Service quality comparison across institutions
 
 ## 🎯 Key Features
 
 ### Interactive Filtering
 - **Multi-language Support**: Arabic-English interface
-- **Regional Filtering**: Dynamic geographic analysis
-- **Temporal Controls**: Year-over-year comparison tools
-- **Category Selection**: Complaint type segmentation
+- **Regional Filtering**: Geographic complaint analysis
+- **Temporal Controls**: Time-based trend analysis
+- **Bank Selection**: Institution-specific performance review
 
 ### Advanced Analytics
-- **Trend Identification**: Multi-year pattern recognition
-- **Regional Comparison**: Cross-country analysis capabilities
-- **Demographic Profiling**: Age and gender distribution analysis
-- **Risk Assessment**: High-risk area identification
+- **Trend Identification**: Multi-year complaint pattern recognition
+- **Regional Comparison**: Cross-region service quality analysis
+- **Bank Performance**: Institutional effectiveness measurement
+- **Resolution Tracking**: Customer satisfaction monitoring
 
-### Cultural Sensitivity
-- **Arabic Language Interface**: Fully localized dashboard
-- **Regional Context**: Culturally-appropriate categorizations
-- **Privacy Protection**: Anonymized data presentation
-- **Religious Considerations**: Respectful data handling
+### Banking Sector Focus
+- **Arabic Language Interface**: Fully localized for Saudi market
+- **Islamic Banking Context**: Sharia-compliant service considerations
+- **Regulatory Compliance**: SAMA (Saudi Central Bank) guidelines
+- **Customer Privacy**: Secure complaint data handling
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 - Power BI Desktop with Arabic language support
-- Access to mental health dataset (anonymized)
-- Understanding of Arab cultural context
+- Access to Saudi banking complaint dataset
+- Understanding of Saudi banking regulations
 - Basic Power BI navigation skills
 
 ### Installation & Setup
@@ -106,27 +106,27 @@ git clone https://github.com/mohamed2nabil/problem-analysis-in-suide-arabe-with-
 
 5. Refresh data connections if prompted
 
-6. Explore the interactive dashboard
+6. Explore the interactive banking dashboard
 
 ## 📁 Project Structure
 ```
 problem-analysis-in-suide-arabe-with-power-bi/
 │
-├── Arabic_Mental_Health_Dashboard.pbix   # Main Power BI file
+├── Saudi_Banking_Analysis_Dashboard.pbix # Main Power BI file
 ├── data/
-│   ├── raw/                             # Original anonymized dataset
-│   ├── processed/                       # Cleaned data files
-│   └── metadata/                        # Data dictionary (Arabic/English)
+│   ├── raw/                             # Original complaint dataset
+│   ├── processed/                       # Cleaned banking data
+│   └── bank_metadata/                   # Institution information
 │
 ├── documentation/
-│   ├── methodology_ar.md                # Analysis approach (Arabic)
-│   ├── methodology_en.md                # Analysis approach (English)
-│   ├── cultural_guidelines.md           # Sensitivity guidelines
-│   └── insights_report.pdf              # Key findings (bilingual)
+│   ├── banking_methodology_ar.md        # Analysis approach (Arabic)
+│   ├── banking_methodology_en.md        # Analysis approach (English)
+│   ├── sama_compliance.md               # Regulatory guidelines
+│   └── banking_insights_report.pdf      # Key findings
 │
 ├── localization/
-│   ├── arabic_labels.json               # Arabic interface elements
-│   └── translation_guide.md             # Localization documentation
+│   ├── arabic_banking_terms.json        # Banking terminology
+│   └── saudi_regions.json               # Geographic data
 │
 └── README.md
 ```
@@ -134,145 +134,110 @@ problem-analysis-in-suide-arabe-with-power-bi/
 ## 📊 Data Sources & Methodology
 
 ### Dataset Information
-- **Source**: Anonymized mental health records (Arab countries)
+- **Source**: Saudi banking sector complaint records
 - **Time Period**: 2019-2024
-- **Privacy Level**: Fully anonymized and aggregated
-- **Update Frequency**: Quarterly data refresh
-- **Ethical Approval**: IRB-approved research protocols
+- **Privacy Level**: Customer data anonymized
+- **Update Frequency**: Monthly data refresh
+- **Regulatory Compliance**: SAMA data protection standards
 
 ### Data Processing
-- **Anonymization**: Complete personal identifier removal
-- **Validation**: Cross-referenced with official health statistics
-- **Cultural Adaptation**: Regionally-appropriate categorizations
-- **Quality Assurance**: Multi-level data validation processes
+- **Customer Anonymization**: Personal identifier removal
+- **Bank Classification**: Institution type categorization
+- **Regional Mapping**: Saudi geographic standardization
+- **Complaint Categorization**: Service type classification
 
 ## 🔍 Key Insights & Findings
 
-### Critical Patterns
-1. **Regional Variations**: Significant differences across Arab countries
-2. **Temporal Trends**: Peak periods identified during 2020-2021
-3. **Demographic Factors**: Age and gender distribution analysis
-4. **Intervention Success**: 80% case resolution rate
+### Banking Sector Patterns
+1. **Institution Performance**: Al-Rajhi Bank shows highest complaint volume (14 cases)
+2. **Regional Variations**: Central region (Riyadh) shows concentrated banking activity
+3. **Resolution Efficiency**: 80% complaint resolution rate across sector
+4. **Temporal Trends**: Peak complaint periods during 2020-2021
 
-### Geographic Analysis
-- **High-Risk Areas**: Specific regions requiring targeted intervention
-- **Resource Distribution**: Optimal allocation strategies identified
-- **Cultural Factors**: Region-specific risk factor analysis
+### Service Quality Analysis
+- **High-Performing Banks**: Banks with zero complaints (Al-Ahli)
+- **Service Gaps**: Areas requiring attention across institutions
+- **Customer Satisfaction**: Resolution rate tracking
+- **Branch Network Impact**: Geographic service coverage analysis
 
-### Temporal Insights
-- **Seasonal Patterns**: Identified recurring high-risk periods
-- **Long-term Trends**: Multi-year trajectory analysis
-- **Intervention Impact**: Program effectiveness measurement
+### Regulatory Insights
+- **Compliance Monitoring**: SAMA regulation adherence
+- **Consumer Protection**: Customer rights enforcement
+- **Market Competition**: Inter-bank service comparison
 
-## 🎯 Public Health Impact
+## 🎯 Banking Sector Impact
 
-### Policy Development
-- Evidence-based mental health legislation
-- Resource allocation optimization
-- Prevention program design
-- Cultural adaptation strategies
+### Regulatory Development
+- SAMA policy formation support
+- Consumer protection enhancement
+- Banking service standards improvement
+- Market competition monitoring
 
-### Healthcare Planning
-- Mental health service expansion
-- Professional training program development
-- Community intervention strategies
-- Crisis response optimization
+### Banking Operations
+- Customer service optimization
+- Branch network planning
+- Complaint resolution process improvement
+- Service quality benchmarking
 
-### Research Applications
-- Academic research support
-- Cross-cultural comparative studies
-- Intervention effectiveness studies
-- Prevention strategy evaluation
+### Customer Experience
+- Service delivery enhancement
+- Resolution time improvement
+- Regional service equity
+- Digital banking optimization
 
 ## 🛠️ Technical Implementation
 
 ### DAX Measures Created
 ```dax
-Total Cases = COUNT('MentalHealth'[CaseID])
-Regional Distribution = CALCULATE([Total Cases], 'Geography'[Region])
-Resolution Rate = DIVIDE([Resolved Cases], [Total Cases])
-Trend Analysis = CALCULATE([Total Cases], DATESINPERIOD('Date'[Date], MAX('Date'[Date]), -12, MONTH))
+Total Complaints = COUNT('BankingComplaints'[ComplaintID])
+Resolution Rate = DIVIDE([Resolved Complaints], [Total Complaints])
+Bank Performance = CALCULATE([Total Complaints], 'Banks'[BankName])
+Regional Analysis = CALCULATE([Total Complaints], 'Geography'[Region])
 ```
 
 ### Power Query Transformations
-- Data anonymization protocols
-- Arabic text processing
-- Regional categorization
-- Temporal data standardization
+- Banking data standardization
+- Arabic text processing for bank names
+- Regional geographic mapping
+- Complaint type categorization
 
-## 📈 Performance & Security
+## 📈 Performance & Compliance
 
 ### Dashboard Performance
-- **Load Time**: <5 seconds for initial dashboard load
-- **Refresh Speed**: 45-second full data refresh
-- **Memory Optimization**: Efficient for large datasets
-- **Mobile Compatibility**: Responsive Arabic layout
+- **Load Time**: <5 seconds initial load
+- **Refresh Speed**: 60-second data refresh
+- **Arabic Display**: Optimized right-to-left layout
+- **Mobile Banking**: Responsive design for tablets
 
-### Security Measures
-- **Data Anonymization**: Complete personal data protection
-- **Access Controls**: Role-based dashboard access
-- **Audit Trails**: User interaction logging
-- **Compliance**: GDPR and regional privacy law adherence
-
-## 🔄 Maintenance & Updates
-
-### Regular Tasks
-- Quarterly anonymized data refresh
-- Cultural sensitivity review
-- Performance optimization
-- Security audit procedures
-
-### Quality Assurance
-- Data validation protocols
-- Cultural appropriateness checks
-- Technical performance monitoring
-- User feedback integration
-
-## 🤝 Ethical Considerations
-
-### Research Ethics
-- IRB approval for all data usage
-- Strict anonymization protocols
-- Cultural sensitivity guidelines
-- Community stakeholder involvement
-
-### Data Privacy
-- No personal identifiers retained
-- Aggregated data presentation only
-- Secure data transmission protocols
-- Regular privacy impact assessments
+### Regulatory Compliance
+- **SAMA Guidelines**: Full regulatory compliance
+- **Data Privacy**: Customer information protection
+- **Audit Trails**: Complaint tracking documentation
+- **Reporting Standards**: Central bank reporting format
 
 ## 📞 Contact & Support
 
 **Project Lead**: Mohamed Nabil
-- **GitHub**:(https://github.com/mohamed2nabil)
-- **Academic Affiliation**: [University/Institution]
-- **Research Focus**: Mental Health Analytics
+- **GitHub**: [@mohamed2nabil](https://github.com/mohamed2nabil)
+- **Specialization**: Banking Sector Analytics
+- **Focus Area**: Saudi Financial Services
 - **Email**: mohamed2nabil5@gmail.com
 
 ## 📄 License & Usage
 
-This project is licensed under Creative Commons Attribution-NonCommercial 4.0 International License for research purposes only.
+This project follows Saudi banking data protection regulations and SAMA guidelines.
 
 ### Usage Guidelines
-- Academic research: Permitted with proper citation
-- Commercial use: Requires explicit permission
-- Data sharing: Only aggregated insights, never raw data
-- Publication: Must include ethical approval documentation
+- Banking research: Permitted with proper authorization
+- Regulatory use: SAMA and financial authorities
+- Commercial application: Requires banking sector approval
+- Academic research: With institutional ethics approval
 
 ## 🙏 Acknowledgments
 
-- Mental health professionals across Arab countries
-- Cultural consultants and community leaders
-- Data privacy and ethics review boards
+- Saudi Arabian Monetary Authority (SAMA)
+- Saudi banking sector institutions
+- Banking compliance professionals
 - Power BI Arabic localization community
 
 
-
-## ⚠️ Important Disclaimer
-
-This dashboard is designed for research and policy development purposes only. It should not be used for individual diagnosis or treatment decisions. All data has been anonymized and aggregated to protect individual privacy while supporting public health research.
-
----
-
-🔬 **This research supports evidence-based mental health policy development in Arab countries while maintaining the highest ethical and cultural sensitivity standards.**
